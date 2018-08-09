@@ -43,18 +43,18 @@ body::before{
     position: relative;
 }
 
-.logo-box{
+.header__logo-box{
     position: absolute;
     top: 4rem;
     left: 4rem;
 }
 
-.logo{
+.header__logo{
     height: 3.5rem;
 
 }
 
-.text-box{
+.header__text-box{
     position: absolute;
     top: 40%;
     left: 50%;
@@ -69,7 +69,7 @@ body::before{
     margin-bottom: 6rem;
 }
 
-.heading-primery-main{
+.heading-primery--main{
     display: block;
     font-size: 6rem;
     font-weight: 400;
@@ -78,7 +78,7 @@ body::before{
     animation-duration: 1s;
 }
 
-.heading-primery-sub{
+.heading-primery--sub{
     display: block;
     font-size: 2rem;
     font-weight: 700;
@@ -157,7 +157,7 @@ body::before{
     box-shadow: 0/*x*/ .5rem/*y*/ 1rem/*blur*/ rgba(0,0,0,.2);
 }
 
-.btn-white{
+.btn--white{
     background-color: #fff;
     color: #777;
 }
@@ -176,7 +176,7 @@ body::before{
     
 }
 
-.btn-white::after{
+.btn--white::after{
     background-color: #fff;
 }
 
@@ -185,7 +185,7 @@ body::before{
     opacity: 0;
 }
 
-.btn-animated{
+.btn--animated{
     animation: moveinbtn .5s ease-out .75s;
     animation-fill-mode: backwards;
 }
