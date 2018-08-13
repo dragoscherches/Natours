@@ -11,6 +11,20 @@
 
     &>*{
         transform: skewX(12deg); //FOR EVERYTHING INSIDE THE STORIE TO BE STRAIGHT
+
+        @include respond(phone){
+            transform: skewX(0);
+        }
+    }
+
+    @include respond(tab-port){
+        width: 100%;
+        padding: 4rem;
+        padding-left: 6rem;
+    }
+
+    @include respond(phone){
+        transform: skewX(0);
     }
 
     &__shape{
@@ -24,6 +38,10 @@
         clip-path: circle(50% at 50% 50%);
         transform: translatex(-3rem) skewX(12deg); // TRANSLATE FOR POSITIONING AND SKEW TO MAKE IT STRAIGHT
         position: relative; // for the caption  
+
+        @include respond(phone){
+            transform: translatex(-3rem) skewX(0);
+        }
     }
 
     &__img{
@@ -35,6 +53,10 @@
 
     &__text{
         transform: skewX(12deg); // FOR THE TEXT
+
+        @include respond(phone){
+            transform: skewX(0);
+        }
     }
 
     &__caption{
