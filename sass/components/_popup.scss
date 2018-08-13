@@ -45,7 +45,9 @@
         display: table-cell;
 
         @include respond(tab-land) {
+            width: 100%;
             display: block;
+            padding-bottom: 4rem;
        }
 
        @include respond(tab-port) {
@@ -72,7 +74,11 @@
         width: 100%;
 
         @include respond(tab-land) {
-            display: none;
+            width: 50%;
+            height: 30rem;
+            float: left;
+            object-fit: cover;
+            margin-bottom: 2rem;
         }
 
         @include respond(tab-port) {
