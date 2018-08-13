@@ -5,6 +5,7 @@
 }
 
 html{
+    scroll-behavior: smooth;
     //This defines what 1rem means
     font-size: 62.5%;  //1rem = 10px ; 10px/16px = 62.5%
 
@@ -29,6 +30,7 @@ html{
 body,
 body::after,
 body::before{
+    scroll-behavior: smooth;
     box-sizing: border-box;
     padding: 3rem; /* 1 rem = 10px in ^ html ^*/
 

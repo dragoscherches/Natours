@@ -49,6 +49,7 @@ ORDER : Base + Typography > General Layout + Grid > PAge LAyout > Components
   box-sizing: inherit; }
 
 html {
+  scroll-behavior: smooth;
   font-size: 62.5%; }
   @media (max-width: 75em) {
     html {
@@ -63,6 +64,7 @@ html {
 body,
 body::after,
 body::before {
+  scroll-behavior: smooth;
   box-sizing: border-box;
   padding: 3rem;
   /* 1 rem = 10px in ^ html ^*/ }
